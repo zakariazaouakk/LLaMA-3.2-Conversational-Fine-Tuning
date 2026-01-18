@@ -1,38 +1,28 @@
-LLaMA-3.2 Conversational Fine-Tuning
-Overview
+# LLaMA-3.2 Conversational Fine-Tuning
 
-Fine-tuning a LLaMA-3.2-3B model on 100k human–assistant conversations using LoRA (PEFT) to improve conversational response quality.
+## Overview
+This project focuses on fine-tuning a **LLaMA-3.2-3B** language model on **100,000 human–assistant conversations** to improve the quality and coherence of generated responses.
 
-Dataset
+## Dataset
+- ShareGPT-style conversational dataset  
+- 100k multi-turn human conversations  
+- Reformatted using LLaMA chat templates  
 
-100k ShareGPT-style human conversations
+## Methodology
+- Supervised Fine-Tuning (SFT)
+- Parameter-Efficient Fine-Tuning using **LoRA (PEFT)**
+- Causal Language Modeling objective
 
-Multi-turn dialogue format
+## Evaluation
+Model performance was evaluated using **ROUGE** metrics on a validation subset:
+- ROUGE-1: ~83%
+- ROUGE-2: ~81%
+- ROUGE-L: ~83%
 
-Converted to LLaMA chat templates
+These results indicate improved relevance and coherence in generated responses.
 
-Approach
+## Technologies
+Python, PyTorch, Hugging Face Transformers, TRL, Unsloth, LoRA, Hugging Face Datasets
 
-Supervised Fine-Tuning (SFT)
-
-Causal language modeling
-
-LoRA-based parameter-efficient adaptation
-
-Evaluation
-
-ROUGE scores on a validation subset:
-
-ROUGE-1: ~83%
-
-ROUGE-2: ~81%
-
-ROUGE-L: ~83%
-
-Stack
-
-Python · PyTorch · Transformers · TRL · Unsloth · LoRA · Hugging Face Datasets
-
-Outcome
-
-Demonstrates practical LLM fine-tuning, dialogue modeling, and quantitative evaluation.
+## Results
+The project demonstrates practical experience with large language model fine-tuning, conversational data processing, and quantitative evaluation of generative models.
