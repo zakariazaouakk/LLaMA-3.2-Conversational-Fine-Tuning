@@ -1,11 +1,10 @@
 # LLaMA-3.2 Conversational Fine-Tuning
 
 ## Overview
-This project focuses on fine-tuning a **LLaMA-3.2-3B** language model on **100,000 human–assistant conversations** to improve the quality and coherence of generated responses.
+This project focuses on fine-tuning a **LLaMA-3.2-3B** language model on **human–assistant conversations** to improve the quality and coherence of generated responses.
 
 ## Dataset
-- ShareGPT-style conversational dataset  
-- 100k multi-turn human conversations  
+- ShareGPT-style conversational dataset    
 - Reformatted using LLaMA chat templates  
 
 ## Methodology
