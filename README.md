@@ -13,12 +13,7 @@ This project focuses on fine-tuning a **LLaMA-3.2-3B** language model on **human
 - Causal Language Modeling objective
 
 ## Evaluation
-Model performance was evaluated using **ROUGE** metrics on a validation subset:
-- ROUGE-1: ~83%
-- ROUGE-2: ~81%
-- ROUGE-L: ~83%
-
-These results indicate improved relevance and coherence in generated responses.
+Model performance was evaluated using **ROUGE** metrics on a validation subset
 
 ## Technologies
 Python, PyTorch, Hugging Face Transformers, TRL, Unsloth, LoRA, Hugging Face Datasets
